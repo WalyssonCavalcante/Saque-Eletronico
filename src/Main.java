@@ -33,12 +33,12 @@ public class Main {
                 if (qtdNotas > 0) {
                     resultadoNotas += qtdNotas + " nota(s) de R$ " + nota + "\n";
                 }
-
             }
 
             if (valorRestante == 0) {
                 System.out.println("Notas a serem entregues:");
                 System.out.println(resultadoNotas);
+                break;
             } else {
                 System.out.println("Não é possível realizar o saque.");
                 break;
